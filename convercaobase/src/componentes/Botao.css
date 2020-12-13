@@ -1,0 +1,37 @@
+.botao{
+    grid-column: span 2;
+    font-size: 15px;
+    background-color: #f86604;
+    border: none;
+    border-bottom: solid 1px gray;
+    color:black;
+    font: bold;
+    outline: none;
+    text-align: center;
+
+    
+}
+
+.button {
+    
+    font-size: 15px;
+    background-color: #f86604;
+    border: none;
+    border-bottom: solid 1px gray;
+    color:black;
+    font: bold;
+    outline: none;
+    text-align: center;
+}
+.button:active {
+    background-color: #ccc;
+}
+
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}

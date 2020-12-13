@@ -1,0 +1,29 @@
+
+.botaonum{
+    font-size: 30px;
+    background-color: #f0f0f0;;
+    border: none;
+    border-bottom: solid 1px gray;
+    color:black;
+    font: bold;
+    text-align: center;
+    outline: none;
+
+    
+}
+.botaonum.duplo{
+    grid-column: span 2;
+}
+
+.botaonum.triplo{
+    grid-column: span 3;
+}
+.botaonum.quatro{
+    grid-column: span 4;
+}
+.botaonum.baixodois{
+    grid-row: span;
+}
+.botaonum:active {
+    background-color: #ccc;
+}

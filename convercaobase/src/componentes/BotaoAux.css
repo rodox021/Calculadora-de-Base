@@ -1,0 +1,33 @@
+:root{
+    --corfundo-botao: #585858;
+    --corborda-botao: solid 1px #888;
+}
+
+.botaoaux{
+    font-size: 15px;
+    background-color: var(--corfundo-botao);
+    border: none;
+    border-bottom: solid 1px gray;
+    color: #fff;
+    
+    
+    
+    text-align: center;
+
+    
+}
+
+
+.botaoaux.duplo{
+    grid-column: span 2;
+}
+.botaoaux.triplo{
+    grid-column: span 3;
+}
+.botaoaux.quatro{
+    grid-column: span 4;
+}
+.botaoaux.letra{
+    background-color: black;
+    color: #fff;
+}

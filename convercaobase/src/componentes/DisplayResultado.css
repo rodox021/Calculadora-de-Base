@@ -1,6 +1,6 @@
-.display {
-    grid-column: span 4;
-    background-color: #0004;
+.DisplayResultado{
+    grid-column:  span 5;
+    background-color: rgb(184, 250, 1);
 
     display: flex;
     justify-content: flex-end;

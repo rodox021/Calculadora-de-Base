@@ -1,0 +1,22 @@
+:root {
+    --bg-button:  #3a3737; /* #f0f0f0;*/
+    --border-button: solid 1px #888;
+}
+.opcao{
+   
+    
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    
+}
+.opcao.duplo {
+    grid-column: span 2;
+}
+.opcao.tripla {
+    grid-column: span 3;
+}
+
+.opcao.quadra {
+    grid-column: span 4;
+}
